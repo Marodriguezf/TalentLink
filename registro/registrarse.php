@@ -16,7 +16,7 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./estilos/estilosIndex.css">
+    <link rel="stylesheet" href="./estilos/estilosRegistro.css">
 
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/1c7ea47b2b.js" crossorigin="anonymous"></script>
@@ -71,11 +71,6 @@
                         <div class="m-3">
                             ¿Ya tienes una cuenta? <a href="inicio_sesion.php">Inicia Sesión aqui</a>
                         </div>
-
-
-
-
-
 
                     </form>
                 </div>
