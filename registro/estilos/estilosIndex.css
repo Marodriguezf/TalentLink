@@ -1,0 +1,51 @@
+
+
+
+.seccion1 {
+    background-color: #fffcf1; /* Color de fondo opcional */
+    padding: 40px 0; /* Espaciado interno opcional */
+}
+
+/* Estilos Formulario */
+.formulario {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.titulo{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos Imagen */
+
+.imagen img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    margin-left: 11px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+
+}
+
+.form {
+    padding-top: 120px;
+}
+
+.btn{
+    background-color: #ff7300;
+    border-color: #ff7300;
+}
+
