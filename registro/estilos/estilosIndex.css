@@ -1,0 +1,39 @@
+body{
+    background-color: #fffcf1;
+}
+
+.sidebar {
+width: 20%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+padding: 2rem;
+background-color:#ffffff;
+color:  #ff7300;
+position: fixed;
+left: 0;
+}
+
+.menus{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.menus a{
+    display: flex;
+    align-items: center;
+    color:black ;
+    text-decoration: none;
+}
+.menus .iconos{
+    margin-right: 0.5rem;
+
+}
+
+.menus a:hover{
+    color:#ff7300
+
+}
