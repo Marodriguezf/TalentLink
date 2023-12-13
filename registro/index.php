@@ -63,7 +63,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Vacantes Abiertas</h5>
+                            <h5 class="card-title">Vacantes Abiertas<i class="icono-abierto fa-solid fa-lock-open"></i></h5>
                             <h2 class="card-subtitle mb-2">3</h2>
                             <p class="card-text">13-12-2023</p>
                             <a href="#" class="card-link">Ver mas</a>
@@ -74,7 +74,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Vacantes Cerradas</h5>
+                            <h5 class="card-title">Vacantes Cerradas<i class="icono-cerrado fa-solid fa-lock"></i></h5>
                             <h2 class="card-subtitle mb-2">2</h2>
                             <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
                         </div>
@@ -84,7 +84,42 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Vacantes en pausa</h5>
+                            <h5 class="card-title">Vacantes en pausa<i class="icono-pausa fa-solid fa-circle-pause"></i></h5>
+                            <h2 class="card-subtitle mb-2">1</h2>
+                            <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="candidatos">
+            <h1>Candidatos</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevos Candidatos<i class="nuevo-candidato fa-solid fa-user"></i></h5>
+                            <h2 class="card-subtitle mb-2">5</h2>
+                            <p class="card-text">13-12-2023</p>
+                            <a href="#" class="card-link">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Candidatos Contratados<i class=" candidato-contratado fa-solid fa-user-check"></i></h5>
+                            <h2 class="card-subtitle mb-2">4</h2>
+                            <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Candidatos Descartados<i class=" candidato-descartado fa-solid fa-user-xmark"></i></h5>
                             <h2 class="card-subtitle mb-2">1</h2>
                             <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
                         </div>
