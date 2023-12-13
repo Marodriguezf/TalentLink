@@ -20,43 +20,81 @@
 </head>
 
 <body>
-<!-- Menu lateral -->
-<div class="sidebar">
-    <h1 class="logo">TalentLink</h1>
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <h1 class="logo">TalentLink</h1>
         <!--Perfil-->
         <div class="perfil">
-        <img class="foto_perfil" src="./imagenes/fotoperfil.jpg">
-        <div class="nombre_perfil">
-            <h4>Juan Ramirez</h4>
-            <p>Profesional de Selección</p>
+            <img class="foto_perfil" src="./imagenes/fotoperfil.jpg">
+            <div class="nombre_perfil">
+                <h4>Juan Ramirez</h4>
+                <p>Profesional de Selección</p>
+            </div>
+
         </div>
-
+        <div class="menus">
+            <p>General</p>
+            <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
+            <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
+            <p>Acciones</p>
+            <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
+            <a href="index.php"><i class="iconos fa-solid fa-user-plus" name="registrar-icon"></i>Registrar
+                Candidato</a>
+            <p>Soporte</p>
+            <a href="index.php"><i class="iconos fa-solid fa-gear" name="setting-icon"></i>Configuración</a>
+            <a href="index.php"><i class="iconos fa-solid fa-circle-info" name="help-icon"></i>Soporte</a>
+        </div>
     </div>
-    <div class="menus">
-        <p>General</p>
-        <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-        <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
-        <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
-        <p>Acciones</p>
-        <a href="index.php"><i class="iconos fa-solid fa-circle-plus"name="crear-icon"></i>Crear una vacante</a>
-        <a href="index.php"><i class="iconos fa-solid fa-user-plus"name="registrar-icon"></i>Registrar Candidato</a>
-        <p>Soporte</p>
-        <a href="index.php"><i class="iconos fa-solid fa-gear"name="setting-icon"></i>Configuración</a>
-        <a href="index.php"><i class="iconos fa-solid fa-circle-info"name="help-icon"></i>Soporte</a>
-    </div>
-</div>
 
-<!-- Menu -->
-<div>
+    <!-- Menu -->
+
     <div class="menu">
         <div class="cabecera-menu">
-            <i class="icono fa-solid fa-bars"name="menu-icono"></i>
+            <i class="icono fa-solid fa-bars" name="menu-icono"></i>
             <div class="buscar">
-            <input type="text" placeholder="Buscar">
-            <button class="btn-buscar"><i class="fa-solid fa-magnifying-glass" name="buscador-icon"></i></button>
+                <input type="text" placeholder="Buscar">
+                <button class="btn-buscar"><i class="fa-solid fa-magnifying-glass" name="buscador-icon"></i></button>
+            </div>
+        </div>
+        <div class="vacantes">
+            <h1>Vacantes</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacantes Abiertas</h5>
+                            <h2 class="card-subtitle mb-2">3</h2>
+                            <p class="card-text">13-12-2023</p>
+                            <a href="#" class="card-link">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacantes Cerradas</h5>
+                            <h2 class="card-subtitle mb-2">2</h2>
+                            <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacantes en pausa</h5>
+                            <h2 class="card-subtitle mb-2">1</h2>
+                            <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    </div>
+
 
 
 
