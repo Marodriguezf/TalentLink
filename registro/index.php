@@ -44,9 +44,18 @@
         <a href="index.php"><i class="iconos fa-solid fa-gear"name="setting-icon"></i>Configuración</a>
         <a href="index.php"><i class="iconos fa-solid fa-circle-info"name="help-icon"></i>Soporte</a>
     </div>
+</div>
 
-
-
+<!-- Menu -->
+<div>
+    <div class="menu">
+        <div class="cabecera-menu">
+            <i class="icono fa-solid fa-bars"name="menu-icono"></i>
+            <div class="buscar">
+            <input type="text" placeholder="Buscar">
+            <button class="btn-buscar"><i class="fa-solid fa-magnifying-glass" name="buscador-icon"></i></button>
+        </div>
+    </div>
 </div>
 
 
