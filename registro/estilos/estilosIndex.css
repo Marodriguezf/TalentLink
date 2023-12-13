@@ -3,7 +3,7 @@ body{
 }
 
 .sidebar {
-width: 20%;
+width: 15%;
 height: 100%;
 display: flex;
 flex-direction: column;
@@ -36,4 +36,37 @@ left: 0;
 .menus a:hover{
     color:#ff7300
 
+}
+
+.perfil{
+    margin-top: -160px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #fffcf1;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow:rgb(99, 99,99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+
+}
+
+.perfil:hover{
+    background-color:#ff7300;
+}
+
+.foto_perfil{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+.nombre_perfil h4 {
+    font-size:23px;
+}
+.nombre_perfil p {
+    font-size:13px;
 }

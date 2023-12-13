@@ -23,6 +23,15 @@
 <!-- Menu lateral -->
 <div class="sidebar">
     <h1 class="logo">TalentLink</h1>
+        <!--Perfil-->
+        <div class="perfil">
+        <img class="foto_perfil" src="./imagenes/fotoperfil.jpg">
+        <div class="nombre_perfil">
+            <h4>Juan Ramirez</h4>
+            <p>Profesional de Selección</p>
+        </div>
+
+    </div>
     <div class="menus">
         <p>General</p>
         <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
@@ -34,10 +43,9 @@
         <p>Soporte</p>
         <a href="index.php"><i class="iconos fa-solid fa-gear"name="setting-icon"></i>Configuración</a>
         <a href="index.php"><i class="iconos fa-solid fa-circle-info"name="help-icon"></i>Soporte</a>
-
-
-
     </div>
+
+
 
 </div>
 
