@@ -78,15 +78,92 @@
         <div class="wrapper">
             <div class="card">
                 <div class="card-left">
-                    <img src="./imagenes/logo.png" alt="">
-
+                    <img src="./imagenes/logo.png">
                 </div>
-
+                <div class="card-center">
+                    <h3>Analista Contable</h3>
+                    <p class="card-detail">Bogotá</p>
+                    <div class="card-sub">
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Presencial</p>
+                        <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>5 aplicaciones</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Area</h5>
+                        <a href="#">Contabilidad</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$1M</b><b>/Mes</b></p>
+                    </div>
+                </div>
             </div>
-
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left">
+                    <img src="./imagenes/logo.png">
+                </div>
+                <div class="card-center">
+                    <h3>Auxiliar Soporte Sistemas</h3>
+                    <p class="card-detail">Bogotá</p>
+                    <div class="card-sub">
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Presencial</p>
+                        <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>3 aplicaciones</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Area</h5>
+                        <a href="#">Sistemas</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$1M</b><b>/Mes</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left">
+                    <img src="./imagenes/logo.png">
+                </div>
+                <div class="card-center">
+                    <h3>Asistente Administrativo</h3>
+                    <p class="card-detail">Bogotá</p>
+                    <div class="card-sub">
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Presencial</p>
+                        <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i> 6 aplicaciones</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Area</h5>
+                        <a href="#">Administrativa</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$1.5M</b><b>/Mes</b></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>
+
+    <!-- Seccion detalles de la vacante -->
+<div class="detail">
+    <div class="detail-header">
+        <img src="./imagenes/logo.png">
+        <h2>Carnicos El Gourmet</h2>
+        <p>Analista Contable</p>
+
+    </div>
+
+
+</div>
 
 
 
@@ -95,6 +172,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    
+    <script> src="https://code.jquery.com/jquery-3.7.1.min.js"</script>
+    <script>src="app.js"</script>
 </body>
 
 </html>
