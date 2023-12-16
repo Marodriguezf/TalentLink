@@ -36,10 +36,10 @@
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
             <a href="vacantes.php""><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
-            <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
+            <a href="candidatos.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
-            <a href="index.php"><i class="iconos fa-solid fa-user-plus" name="registrar-icon"></i>Registrar
+            <a href="resgistrar_candidato.php"><i class="iconos fa-solid fa-user-plus" name="registrar-icon"></i>Registrar
                 Candidato</a>
             <p>Soporte</p>
             <a href="index.php"><i class="iconos fa-solid fa-gear" name="setting-icon"></i>Configuración</a>
