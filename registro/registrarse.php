@@ -37,9 +37,9 @@
                 </div>
 
                 <!-- Fromulario de Registro Usuario -->
-                <form method="post" onsubmit="myaction.collect_data(event, 'registrarse')">
+                
                     <div class="formulario col-md-6">
-                        <form class="form" method="post">
+                        <form class="form" method="post" onsubmit="myaction.collect_data(event, 'registrarse')">
                             <div class="titulo">
                                 <h1><strong> Crea tu cuenta</strong></h1>
                             </div>
@@ -75,7 +75,6 @@
 
                         </form>
                     </div>
-                </form>
 
 
 
