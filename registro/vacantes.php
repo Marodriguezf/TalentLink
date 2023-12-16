@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacantes</title>
+    <title>Analista contable</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -35,7 +35,7 @@
         <div class="menus">
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-            <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="vacantes.php""><i class=" iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
@@ -71,8 +71,7 @@
                 </a>
             </div>
         </div>
-    </div>
-    <!--  <div class="ordenar">
+        <!--  <div class="ordenar">
             <p>ordenar</p>
             <div class="ordenar-lista">
                 <select>
@@ -82,99 +81,95 @@
                 </select>
             </div>
         </div>  -->
-    <div class="wrapper">
-        <div class="card">
-            <div class="card-left">
-                <img src="./imagenes/logo.png">
-            </div>
-            <div class="card-center">
-                <h3>Analista Contable</h3>
-                <p class="card-detail">Bogotá</p>
-                <div class="card-sub">
-                    <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Presencial
-                    </p>
-                    <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                    <p><i class="people fa-solid fa-user" name="people-icon"></i>5 aplicaciones</p>
-
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left">
+                    <img src="./imagenes/logo.png">
+                </div>
+                <div class="card-center">
+                    <h3>Analista Contable</h3>
+                    <p class="card-detail">Bogotá</p>
+                    <div class="card-sub">
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin"
+                                name="location-icon"></i>Presencial</p>
+                        <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>5 aplicaciones</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Area</h5>
+                        <a href="#">Contabilidad</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$1M</b><b>/Mes</b></p>
+                    </div>
+                    <div class="link">
+                        <a href="vacante1.php">Ver mas</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="card-right">
-                <div class="card-tag">
-                    <h5>Area</h5>
-                    <a href="#">Contabilidad</a>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left">
+                    <img src="./imagenes/logo.png">
                 </div>
-                <div class="card-salary">
-                    <p><b>$1M</b><b>/Mes</b></p>
+                <div class="card-center">
+                    <h3>Auxiliar Soporte Sistemas</h3>
+                    <p class="card-detail">Bogotá</p>
+                    <div class="card-sub">
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin"
+                                name="location-icon"></i>Presencial</p>
+                        <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>3 aplicaciones</p>
+                    </div>
                 </div>
-                <div class="link">
-                    <a href="vacante1.php">Ver mas</a>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Area</h5>
+                        <a href="#">Sistemas</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$1M</b><b>/Mes</b></p>
+                    </div>
+                    <div class="link">
+                        <a href="vacante2.php">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left">
+                    <img src="./imagenes/logo.png">
+                </div>
+                <div class="card-center">
+                    <h3>Asistente Administrativo</h3>
+                    <p class="card-detail">Bogotá</p>
+                    <div class="card-sub">
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin"
+                                name="location-icon"></i>Presencial</p>
+                        <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i> 6 aplicaciones</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Area</h5>
+                        <a href="#">Administrativa</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$1.5M</b><b>/Mes</b></p>
+                    </div>
+                    <div class="link">
+                        <a href="vacante3.php">Ver mas</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="wrapper">
-        <div class="card">
-            <div class="card-left">
-                <img src="./imagenes/logo.png">
-            </div>
-            <div class="card-center">
-                <h3>Auxiliar Soporte Sistemas</h3>
-                <p class="card-detail">Bogotá</p>
-                <div class="card-sub">
-                    <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Presencial
-                    </p>
-                    <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                    <p><i class="people fa-solid fa-user" name="people-icon"></i>3 aplicaciones</p>
-                </div>
-            </div>
-            <div class="card-right">
-                <div class="card-tag">
-                    <h5>Area</h5>
-                    <a href="#">Sistemas</a>
-                </div>
-                <div class="card-salary">
-                    <p><b>$1M</b><b>/Mes</b></p>
-                </div>
-                <div class="link">
-                    <a href="vacante2.php">Ver mas</a>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="wrapper">
-        <div class="card">
-            <div class="card-left">
-                <img src="./imagenes/logo.png">
-            </div>
-            <div class="card-center">
-                <h3>Asistente Administrativo</h3>
-                <p class="card-detail">Bogotá</p>
-                <div class="card-sub">
-                    <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Presencial
-                    </p>
-                    <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                    <p><i class="people fa-solid fa-user" name="people-icon"></i> 6 aplicaciones</p>
-                </div>
-            </div>
-            <div class="card-right">
-                <div class="card-tag">
-                    <h5>Area</h5>
-                    <a href="#">Administrativa</a>
-                </div>
-                <div class="card-salary">
-                    <p><b>$1.5M</b><b>/Mes</b></p>
-                </div>
-                <div class="link">
-                    <a href="vacante1.php">Ver mas</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-
-
 
 </body>
 <!-- Javascript -->

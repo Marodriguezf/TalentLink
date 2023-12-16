@@ -75,7 +75,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Vacantes Cerradas<i class="icono-cerrado fa-solid fa-lock"></i></h5>
-                            <h2 class="card-subtitle mb-2">2</h2>
+                            <h2 class="card-subtitle mb-2">3</h2>
                             <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Nuevos Candidatos<i class="nuevo-candidato fa-solid fa-user"></i></h5>
-                            <h2 class="card-subtitle mb-2">5</h2>
+                            <h2 class="card-subtitle mb-2">3</h2>
                             <p class="card-text">13-12-2023</p>
                             <a href="#" class="card-link">Ver mas</a>
                         </div>
@@ -110,7 +110,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Candidatos Contratados<i class=" candidato-contratado fa-solid fa-user-check"></i></h5>
-                            <h2 class="card-subtitle mb-2">4</h2>
+                            <h2 class="card-subtitle mb-2">2</h2>
                             <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
                         </div>
                     </div>
