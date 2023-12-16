@@ -35,7 +35,7 @@
         <div class="menus">
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-            <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="vacantes.php""><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
@@ -66,7 +66,7 @@
                             <h5 class="card-title">Vacantes Abiertas<i class="icono-abierto fa-solid fa-lock-open"></i></h5>
                             <h2 class="card-subtitle mb-2">3</h2>
                             <p class="card-text">13-12-2023</p>
-                            <a href="#" class="card-link">Ver mas</a>
+                            <a href="vacantes.php" class="card-link">Ver mas</a>
                         </div>
                     </div>
                 </div>

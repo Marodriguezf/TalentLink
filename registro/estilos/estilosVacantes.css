@@ -42,8 +42,6 @@ body {
 }
 
 .perfil {
-  margin-top: -20px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -76,7 +74,7 @@ body {
 
 .menu {
   width: calc(100% - 20% - 25%);
-  min-height: 20%;
+  min-height: 100%;
   min-width: 300px;
   height: max-content;
   display: flex;
@@ -269,6 +267,11 @@ body {
     margin-right:10px;
 }
 
+.link a{
+  color: #ff7300;
+  font-size: 16px;
+  text-decoration: none;
+}
 .detail{
 
     width: 25%;
@@ -292,4 +295,117 @@ body {
     border-radius: 30px;
     padding: 1rem;
     margin-top: -10px;
+}
+
+.close-detail{
+  display: none;
+}
+
+.detail-header{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.divider{
+  width:100%;
+  height: 1px;
+  background-color: gray;
+  border: none;
+  margin: 1rem 0;
+
+}
+
+.detail-desc{
+  line-height:1.5;
+}
+
+.about a{
+  margin: 0.5rem 0 0 0;
+  color: #ff7300;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn{
+  display: flex;
+  margin-left:75px;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.btn-actualizar{
+  background-color: #ff7300;
+  color:white;
+  border: none;
+  padding:10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-eliminar{
+  background-color: #031432;
+  color:white;
+  border: none;
+  padding:10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-actualizar:hover{
+  border: 1px solid #ff7300 ;
+  background-color: transparent;
+  color: #ff7300;
+}
+
+.btn-eliminar:hover{
+  border: 1px solid #031432;
+  background-color: transparent;
+  color: #031432;
+}
+
+
+@media screen and (max-width:880px) {
+  .icono {
+    display: block;
+  }
+
+  .sidebar{
+    display:none;
+  }
+  .sidebar.active{
+    display: flex;
+    width:220px;
+    z-index:100;
+  }
+  
+
+  .menu{
+    width: calc(100% - 40%);
+    margin-left: 0;
+  }
+
+  .detail{
+    display: none;
+  }
+
+  .detail.active{
+    display:block;
+    width: 100%;
+    z-index:100;
+
+  }
+
+  .detail.active.close-detail{
+    display: block;
+    cursor: pointer;
+  }
+  
+}
+
+@media screen {
+  
 }

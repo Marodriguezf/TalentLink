@@ -35,7 +35,7 @@
         <div class="menus">
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-            <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="vacantes.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
@@ -57,7 +57,7 @@
                 <button class="btn-buscar"><i class="fa-solid fa-magnifying-glass" name="buscador-icon"></i></button>
             </div>
         </div>
-         <div class="filter-wrapper">
+        <div class="filter-wrapper">
             <p>Categorias</p>
             <div class="filtro">
                 <button class="btn-filtro">Abiertas</button>
@@ -88,10 +88,8 @@
                                 name="location-icon"></i>Presencial</p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
                         <p><i class="people fa-solid fa-user" name="people-icon"></i>5 aplicaciones</p>
-
                     </div>
                 </div>
-
                 <div class="card-right">
                     <div class="card-tag">
                         <h5>Area</h5>
@@ -159,12 +157,52 @@
                         <p><b>$1.5M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante1.php">Ver mas</a>
+                        <a href="vacante3.php">Ver mas</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+    <!-- Seccion detalles de la vacante -->
+    <div class="detail">
+        <div class="detail-header">
+            <img src="./imagenes/logo.png">
+            <h2>Carnicos El Gourmet</h2>
+            <p>Asistente Administrativo</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>Acerca de la compañia</h4>
+                <p>Carnicos el gourmet es una compañia de productos carnicos fundada en 2017, con base en Bogotá.</p>
+                <a href="#">leer más</a>
+            </div>
+            <div class="requisitos">
+                <h4>Requisitos</h4>
+                <ul>
+                    <li>Tecnico, tecnologo en cualquier area</li>
+                    <li>6 meses de experiencia en cargos similares, habilidades ofimáticas </li>
+                    <li>Buen manejo de excel</li>
+                </ul>
+            </div>
+            <div class="funciones">
+                <h4>Funciones</h4>
+                <ul>
+                    <li>Archivar, organizar, guardar y revisar todo tipo de documentos</li>
+                    <li>Solicitar suministros y acordar el mantenimiento o reparación de los equipos de oficina</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr class="divider">
+        <div class="btn">
+            <button class="btn-actualizar">Actualizar</button>
+            <button class="btn-eliminar">Eliminar</button>
+        </div>
+
+
     </div>
 
 
