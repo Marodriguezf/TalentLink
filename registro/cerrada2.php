@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacantes Cerradas</title>
+    <title>Auxiliar de Bodega</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -35,7 +35,7 @@
         <div class="menus">
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-            <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="vacantes.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
@@ -67,7 +67,7 @@
                     <button class="btn-filtro">Cerradas</button>
                 </a>
                 <a href="vacantes_pausa.php">
-                <button class="btn-filtro">En pausa</button>
+                    <button class="btn-filtro">En pausa</button>
                 </a>
             </div>
         </div>
@@ -87,7 +87,7 @@
                     <img src="./imagenes/logo.png">
                 </div>
                 <div class="card-center">
-                    <h3>Asistente de producción</h3>
+                    <h3>Auxiliar de Bodega</h3>
                     <p class="card-detail">Bogotá</p>
                     <div class="card-sub">
                         <p class="card-loc"><i class="location fa-solid fa-location-pin"
@@ -171,6 +171,42 @@
             </div>
         </div>
     </div>
+    </div>
+
+    <!-- Seccion detalles de la vacante -->
+    <div class="detail">
+        <div class="detail-header">
+            <img src="./imagenes/logo.png">
+            <h2>Carnicos El Gourmet</h2>
+            <p>Auxiliar de Bodega</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <br>
+            <div class="about">
+                <h4>Estado del proceso</h4>
+            </div>
+            <br>
+            <div class="candidato">
+                <h6>Candidato Seleccionado</h6>
+                <p>Sandra Martinez</p>
+            </div>
+            <div class="fecha">
+                <h6>Fecha de contratación</h6>
+                <p>4/08/2022</p>
+            </div>
+            <div class="Estado">
+                <h6>Estado</h6>
+                <p>Activo</p>
+            </div>
+            <div class="Jefe">
+                <h6>Jefe Inmediato</h6>
+                <p>Andres perez</p>
+            </div>
+
+        </div>
+
+
     </div>
 
 

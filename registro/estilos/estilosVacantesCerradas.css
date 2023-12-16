@@ -323,9 +323,13 @@ body {
   .detail-desc h4{
     text-align: center;
   }
-  .detail-desc h6, p{
+  .detail-desc h6{
     text-align: center;
   }
+  .detail-desc p{
+    text-align: center;
+  }
+
   .about a{
     margin: 0.5rem 0 0 0;
     color: #ff7300;

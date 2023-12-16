@@ -35,7 +35,7 @@
         <div class="menus">
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-            <a href="vacantes.php""><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="vacantes.php""><i class=" iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
@@ -60,9 +60,15 @@
         <div class="filter-wrapper">
             <p>Categorias</p>
             <div class="filtro">
-                <button class="btn-filtro">Abiertas</button>
-                <button class="btn-filtro">Cerradas</button>
-                <button class="btn-filtro">En pausa</button>
+                <a href="vacantes.php">
+                    <button class="btn-filtro">Abiertas</button>
+                </a>
+                <a href="vacantes_cerradas.php">
+                    <button class="btn-filtro">Cerradas</button>
+                </a>
+                <a href="vacantes_pausa.php">
+                    <button class="btn-filtro">En pausa</button>
+                </a>
             </div>
         </div>
         <!--  <div class="ordenar">
@@ -190,7 +196,8 @@
             <div class="funciones">
                 <h4>Funciones</h4>
                 <ul>
-                    <li>Administrar, dar mantenimiento y soporte a los sistemas computacionales, equipo de cómputo, infraestructura de red.</li>
+                    <li>Administrar, dar mantenimiento y soporte a los sistemas computacionales, equipo de cómputo,
+                        infraestructura de red.</li>
                     <li>Configuración, soporte y administración de correos electrónicos</li>
                 </ul>
             </div>

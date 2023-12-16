@@ -60,9 +60,15 @@
         <div class="filter-wrapper">
             <p>Categorias</p>
             <div class="filtro">
-                <button class="btn-filtro">Abiertas</button>
-                <button class="btn-filtro">Cerradas</button>
-                <button class="btn-filtro">En pausa</button>
+                <a href="vacantes.php">
+                    <button class="btn-filtro">Abiertas</button>
+                </a>
+                <a href="vacantes_cerradas.php">
+                    <button class="btn-filtro">Cerradas</button>
+                </a>
+                <a href="vacantes_pausa.php">
+                    <button class="btn-filtro">En pausa</button>
+                </a>
             </div>
         </div>
         <!--  <div class="ordenar">

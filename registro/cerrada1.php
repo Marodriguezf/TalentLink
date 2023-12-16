@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asistente Administrativo</title>
+    <title>Asistente de produccion</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -60,9 +60,15 @@
         <div class="filter-wrapper">
             <p>Categorias</p>
             <div class="filtro">
-                <button class="btn-filtro">Abiertas</button>
-                <button class="btn-filtro">Cerradas</button>
-                <button class="btn-filtro">En pausa</button>
+                <a href="vacantes.php">
+                    <button class="btn-filtro">Abiertas</button>
+                </a>
+                <a href="vacantes_cerradas.php">
+                    <button class="btn-filtro">Cerradas</button>
+                </a>
+                <a href="vacantes_pausa.php">
+                    <button class="btn-filtro">En pausa</button>
+                </a>
             </div>
         </div>
         <!--  <div class="ordenar">
@@ -184,7 +190,7 @@
             <div class="candidato">
                 <h6>Candidato Seleccionado</h6>
                 <p>Andres Sandoval</p>
-            </div>      
+            </div>
             <div class="fecha">
                 <h6>Fecha de contratación</h6>
                 <p>15/02/2023</p>
