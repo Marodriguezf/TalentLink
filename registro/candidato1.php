@@ -105,7 +105,7 @@
                         <p><b>$2M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante1.php">Ver mas</a>
+                        <a href="candidato1.php">Ver mas</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                         <p><b>$1M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante1.php">Ver mas</a>
+                        <a href="candidato2.php">Ver mas</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                         <p><b>$1.5M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante1.php">Ver mas</a>
+                        <a href="candidato3.php">Ver mas</a>
                     </div>
                 </div>
             </div>
