@@ -14,8 +14,8 @@ if (!preg_match(" /^[\p{L}\s]+$/u ", $_POST['nombre'])) {
 if (empty($_POST['cargo'])) {
     $info['errors']['cargo'] = "Se requiere un cargo";
 } else 
-if (!preg_match("/^[\p{L}\s]+$/u ", $_POST['apellido'])) {
-    $info['errors']['apellido'] = "El apellido solo puede tener letras, no se permiten caracteres especiales o números";
+if (!preg_match("/^[\p{L}\s]+$/u ", $_POST['cargo'])) {
+    $info['errors']['cargo'] = "Elcargo solo puede tener letras, no se permiten caracteres especiales o números";
 }
 
 // Validar correo

@@ -46,7 +46,7 @@
                             <div class="contenido mt-2">
                                 <div class="encabezado"></div>
                                 <label for="correo"> Correo</label>
-                                <input type="text" class="form-control" id="correo" name="correo" required>
+                                <input type="email" class="form-control" id="correo" name="correo" required>
                             </div>
                             <div class="contenido mt-2">
                                 <div class="encabezado"></div>
