@@ -1,0 +1,417 @@
+body {
+    background-color: #fffcf1;
+  }
+  
+  .sidebar {
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ffffff;
+    color: #ff7300;
+    position: fixed;
+    left: 0;
+    margin-left: 15px;
+  }
+  
+  .menus {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .menus a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+  }
+  .menus .iconos {
+    margin-right: 0.5rem;
+  }
+  .menus p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .menus a:hover {
+    color: #ff7300;
+  }
+  
+  .perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #fffcf1;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+  }
+  
+  .perfil:hover {
+    background-color: #ff7300;
+  }
+  
+  .foto_perfil {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+  
+  .nombre_perfil h4 {
+    font-size: 15px;
+  }
+  .nombre_perfil p {
+    font-size: 12px;
+  }
+  
+  .menu {
+    width: calc(100% - 20% - 25%);
+    min-height: 100%;
+    min-width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2%;
+    margin-left: 20%;
+    background-color: #fffcf1;
+    z-index: 1;
+  }
+  
+  .cabecera-menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Oculta la barra lateral y solo se visualiza el icono */
+  .icono {
+    background-color: rgb(255, 224, 193);
+    padding: 0.5rem;
+    border-radius: 20px;
+    display: none;
+  }
+  .buscar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: none;
+    border-radius: 20px;
+    padding: 0.5rem, 1rem;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .buscar input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+  }
+  .btn-buscar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 5%;
+    background-color: #ff7300;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+  }
+  
+  .btn-buscar:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .filter-wrapper {
+    margin: 1rem 0;
+    font-size: 14px;
+  }
+  
+  .filtro {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    margin: 0.5rem 0;
+  }
+  
+  .btn-filtro {
+    min-width: 110px;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+  }
+  
+  .btn-filtro:hover {
+    background-color: #ff7300;
+    color: white;
+    box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .ordenar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .ordenar p {
+    font-size: 18px;
+  }
+  
+  .ordenar-lista select {
+    height: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    margin-top: 0 0.5rem;
+  }
+  
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    overflow-y: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3%;
+    margin: 0 1%;
+    background-color: white;
+    line-height: 1.5;
+    gap: 1.5rem;
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .card:hover {
+    box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .card-left {
+    width: 10%;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    border: 20%;
+  }
+  .card-left img {
+    width: 140%;
+    height: 80%;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-top: -10px;
+  }
+  
+  .card-center {
+    width: 50%;
+  }
+  .card-loc,
+  .card-sub {
+    font-size: 13px;
+    color: #b6b6b5;
+  }
+  
+  .card-sub {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-sub p {
+    display: flex;
+    padding: 0 0.5rem 0 0;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .card-right{
+      width: 15%;
+      margin-left: 150px;
+  }
+  
+  .card-tag a{
+      color: #b6b6b5;
+      font-size: 13px;
+      text-decoration: none;
+  }
+  
+  .card-salary{
+      padding: 0.5rem 0;
+  }
+  .location{
+      margin-right:10px;
+  }
+  .time{
+      margin-right:10px;
+  }
+  
+  .people{
+      margin-right:10px;
+  }
+  
+  .link a{
+    color: #ff7300;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .detail{
+  
+      width: 25%;
+      min-width: 250px;
+      height: 100%;
+      padding: 2rem;
+      position:fixed;
+      right: 0;
+      background-color: white;
+      overflow:auto ;
+      box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin-top:-900px;
+      
+  
+  
+  }
+  
+  .detail img{
+      width: 45%;
+      height: 45%;
+      border-radius: 30px;
+      padding: 1rem;
+      margin-top: -10px;
+  }
+  
+  .close-detail{
+    display: none;
+  }
+  
+  .detail-header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  .divider{
+    width:100%;
+    height: 1px;
+    background-color: gray;
+    border: none;
+    margin: 1rem 0;
+  
+  }
+  
+  .detail-desc{
+    line-height:1.5;
+  }
+  
+  .detail-desc h4{
+    text-align: center;
+  }
+  .detail-desc h6, p{
+    text-align: center;
+  }
+  .about a{
+    margin: 0.5rem 0 0 0;
+    color: #ff7300;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn{
+    display: flex;
+    margin-left:75px;
+    align-items: center;
+    gap: 1rem;
+    
+  }
+  
+  .btn-actualizar{
+    background-color: #ff7300;
+    color:white;
+    border: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-eliminar{
+    background-color: #031432;
+    color:white;
+    border: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-actualizar:hover{
+    border: 1px solid #ff7300 ;
+    background-color: transparent;
+    color: #ff7300;
+  }
+  
+  .btn-eliminar:hover{
+    border: 1px solid #031432;
+    background-color: transparent;
+    color: #031432;
+  }
+  
+  
+  @media screen and (max-width:880px) {
+    .icono {
+      display: block;
+    }
+  
+    .sidebar{
+      display:none;
+    }
+    .sidebar.active{
+      display: flex;
+      width:220px;
+      z-index:100;
+    }
+    
+  
+    .menu{
+      width: calc(100% - 40%);
+      margin-left: 0;
+    }
+  
+    .detail{
+      display: none;
+    }
+  
+    .detail.active{
+      display:block;
+      width: 100%;
+      z-index:100;
+  
+    }
+  
+    .detail.active.close-detail{
+      display: block;
+      cursor: pointer;
+    }
+    
+  }
+  
+  @media screen {
+    
+  }

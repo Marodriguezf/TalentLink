@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analista contable</title>
+    <title>Vacantes Cerradas</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="./estilos/estilosVacantes.css">
+    <link rel="stylesheet" href="./estilos/estilosVacantesCerradas.css">
 
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/1c7ea47b2b.js" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
         <div class="menus">
             <p>General</p>
             <a href="index.php"><i class="iconos fa-solid fa-grip" name="dashboard-icon"></i>Dashboard</a>
-            <a href="vacantes.php""><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
+            <a href="index.php"><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="index.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
             <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
@@ -57,10 +57,12 @@
                 <button class="btn-buscar"><i class="fa-solid fa-magnifying-glass" name="buscador-icon"></i></button>
             </div>
         </div>
-        <div class="filter-wrapper">
+         <div class="filter-wrapper">
             <p>Categorias</p>
             <div class="filtro">
+                <a href="vacantes.php">
                 <button class="btn-filtro">Abiertas</button>
+                </a>
                 <button class="btn-filtro">Cerradas</button>
                 <button class="btn-filtro">En pausa</button>
             </div>
@@ -81,25 +83,27 @@
                     <img src="./imagenes/logo.png">
                 </div>
                 <div class="card-center">
-                    <h3>Analista Contable</h3>
+                    <h3>Asistente de producción</h3>
                     <p class="card-detail">Bogotá</p>
                     <div class="card-sub">
                         <p class="card-loc"><i class="location fa-solid fa-location-pin"
                                 name="location-icon"></i>Presencial</p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                        <p><i class="people fa-solid fa-user" name="people-icon"></i>5 aplicaciones</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>100 aplicaciones</p>
+
                     </div>
                 </div>
+
                 <div class="card-right">
                     <div class="card-tag">
                         <h5>Area</h5>
-                        <a href="#">Contabilidad</a>
+                        <a href="#">Produccion</a>
                     </div>
                     <div class="card-salary">
                         <p><b>$1M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante1.php">Ver mas</a>
+                        <a href="cerrada1.php">Ver mas</a>
                     </div>
                 </div>
             </div>
@@ -110,25 +114,25 @@
                     <img src="./imagenes/logo.png">
                 </div>
                 <div class="card-center">
-                    <h3>Auxiliar Soporte Sistemas</h3>
+                    <h3>Auxiliar de Bodega</h3>
                     <p class="card-detail">Bogotá</p>
                     <div class="card-sub">
                         <p class="card-loc"><i class="location fa-solid fa-location-pin"
                                 name="location-icon"></i>Presencial</p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                        <p><i class="people fa-solid fa-user" name="people-icon"></i>3 aplicaciones</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>30 aplicaciones</p>
                     </div>
                 </div>
                 <div class="card-right">
                     <div class="card-tag">
                         <h5>Area</h5>
-                        <a href="#">Sistemas</a>
+                        <a href="#">producción</a>
                     </div>
                     <div class="card-salary">
                         <p><b>$1M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante2.php">Ver mas</a>
+                        <a href="cerrada2.php">Ver mas</a>
                     </div>
                 </div>
             </div>
@@ -139,71 +143,30 @@
                     <img src="./imagenes/logo.png">
                 </div>
                 <div class="card-center">
-                    <h3>Asistente Administrativo</h3>
+                    <h3>Conductor</h3>
                     <p class="card-detail">Bogotá</p>
                     <div class="card-sub">
                         <p class="card-loc"><i class="location fa-solid fa-location-pin"
                                 name="location-icon"></i>Presencial</p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                        <p><i class="people fa-solid fa-user" name="people-icon"></i> 6 aplicaciones</p>
+                        <p><i class="people fa-solid fa-user" name="people-icon"></i>30 aplicaciones</p>
                     </div>
                 </div>
                 <div class="card-right">
                     <div class="card-tag">
                         <h5>Area</h5>
-                        <a href="#">Administrativa</a>
+                        <a href="#">Logistica</a>
                     </div>
                     <div class="card-salary">
-                        <p><b>$1.5M</b><b>/Mes</b></p>
+                        <p><b>$1M</b><b>/Mes</b></p>
                     </div>
                     <div class="link">
-                        <a href="vacante3.php">Ver mas</a>
+                        <a href="cerrada3.php">Ver mas</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-
-    <!-- Seccion detalles de la vacante -->
-    <div class="detail">
-        <div class="detail-header">
-            <img src="./imagenes/logo.png">
-            <h2>Carnicos El Gourmet</h2>
-            <p>Analista Contable</p>
-        </div>
-        <hr class="divider">
-        <div class="detail-desc">
-            <div class="about">
-                <h4>Acerca de la compañia</h4>
-                <p>Carnicos el gourmet es una compañia de productos carnicos fundada en 2017, con base en Bogotá.</p>
-                <a href="#">leer más</a>
-            </div>
-            <div class="requisitos">
-                <h4>Requisitos</h4>
-                <ul>
-                    <li>Tecnico, tecnologo en contabilidad</li>
-                    <li>Experiencia en nomina, asientos contables, facturacion, cartera</li>
-                    <li>Experiencia minima de 2 años en el area</li>
-                    <li>conocimiento en sistemas como SAP,Helisa, siigo entre otros</li>
-                </ul>
-            </div>
-            <div class="funciones">
-                <h4>Funciones</h4>
-                <ul>
-                    <li>Gestionar facturación, cobro y totalización de las cuentas.</li>
-                    <li>Revisar las relaciones de impuestos y retenciones.</li>
-                </ul>
-            </div>
-
-        </div>
-        <hr class="divider">
-        <div class="btn">
-            <button class="btn-actualizar">Actualizar</button>
-            <button class="btn-eliminar">Eliminar</button>
-        </div>
-
-
     </div>
 
 
