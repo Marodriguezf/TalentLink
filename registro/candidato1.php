@@ -90,10 +90,10 @@
                     <h3>Maria Paula Ortiz</h3>
                     <p class="card-detail">Contador Publico</p>
                     <div class="card-sub">
-                        <p class="card-loc"><i class="location fa-solid fa-location-pin"
-                                name="location-icon"></i>Bogotá</p>
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Bogotá
+                        </p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                    
+
                     </div>
                 </div>
                 <div class="card-right">
@@ -119,10 +119,10 @@
                     <h3>Andres Hernandez</h3>
                     <p class="card-detail">Técnico en contaduria</p>
                     <div class="card-sub">
-                        <p class="card-loc"><i class="location fa-solid fa-location-pin"
-                                name="location-icon"></i>Bogotá</p>
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Bogotá
+                        </p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                    
+
                     </div>
                 </div>
                 <div class="card-right">
@@ -148,10 +148,10 @@
                     <h3>Sandra Ortiz</h3>
                     <p class="card-detail">Tecnologa en Finanzas</p>
                     <div class="card-sub">
-                        <p class="card-loc"><i class="location fa-solid fa-location-pin"
-                                name="location-icon"></i>Bogotá</p>
+                        <p class="card-loc"><i class="location fa-solid fa-location-pin" name="location-icon"></i>Bogotá
+                        </p>
                         <p><i class="time fa-regular fa-clock" name="time-icon"></i>Full time</p>
-                    
+
                     </div>
                 </div>
                 <div class="card-right">
@@ -170,6 +170,48 @@
         </div>
     </div>
     </div>
+
+    <!-- Seccion detalles de la vacante -->
+    <div class="detail">
+        <div class="detail-header">
+            <img src="./imagenes/foto perfil 6.png">
+            <h2>Maria Paula Ortiz</h2>
+            <p>Contador Publico</p>
+            <p>Bogotá, 28 años</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>Perfil</h4>
+                <p>Contadora publica con mas de dos años de experiencia en revision de estados financieros, analisis y
+                    conciliacion de cuentas</p </div>
+                <div class="requisitos">
+                    <h4>Experiencia</h4>
+                    <ul>
+                        <strong>
+                            <li>TMF Group</li>
+                        </strong>
+                        <p>Ago 2022 - Ago 2023</p>
+                        <p>1 año</p>
+                        <p>Realizar informes financieros para los clientes a través de la revisión de libros contables,
+                            estados financieros, análisis de gastos e ingresos.</p>
+                    </ul>
+                </div>
+                <div class="funciones">
+                    <h4>Expectativa salarial</h4>
+                    <p>$1.5 M- a $2M</p>
+                </div>
+
+            </div>
+            <hr class="divider">
+            <div class="btn">
+                <button class="btn-actualizar">Mensaje</button>
+                <button class="btn-eliminar">Actualizar</button>
+            </div>
+
+
+        </div>
+
 
 </body>
 <!-- Javascript -->
