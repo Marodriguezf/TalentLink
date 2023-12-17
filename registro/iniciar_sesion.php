@@ -46,12 +46,14 @@
                             <div class="contenido mt-2">
                                 <div class="encabezado"></div>
                                 <label for="correo"> Correo</label>
+                                <div><small class="my-1 js-error js-error-correo text-danger"></small></div>
                                 <input type="email" class="form-control" id="correo" name="correo" required>
                             </div>
                             <div class="contenido mt-2">
                                 <div class="encabezado"></div>
                                 <label for="password"> Contraseña</label>
-                                <input type="text" class="form-control" id="password" name="password" required>
+                                <div><small class="my-1 js-error js-error-correo text-danger"></small></div>
+                                <input type="password" class="form-control" id="password" name="password" required>
                             </div>
                             <div class="contenido mt-3 d-flex">
                                 <input type="checkbox" name="recordar" id="recordar" class="mr-3"><label for="recordar"
@@ -139,6 +141,7 @@
             }
         }
     };
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
