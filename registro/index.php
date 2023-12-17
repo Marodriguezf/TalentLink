@@ -38,8 +38,8 @@
             <a href="vacantes.php""><i class="iconos fa-solid fa-briefcase" name="vacante-icon"></i>Vacantes</a>
             <a href="candidatos.php"><i class="iconos fa-solid fa-user" name="candidato-icon"></i>Candidatos</a>
             <p>Acciones</p>
-            <a href="index.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
-            <a href="resgistrar_candidato.php"><i class="iconos fa-solid fa-user-plus" name="registrar-icon"></i>Registrar
+            <a href="crear_vacante.php"><i class="iconos fa-solid fa-circle-plus" name="crear-icon"></i>Crear una vacante</a>
+            <a href="registrar_candidato.php"><i class="iconos fa-solid fa-user-plus" name="registrar-icon"></i>Registrar
                 Candidato</a>
             <p>Soporte</p>
             <a href="index.php"><i class="iconos fa-solid fa-gear" name="setting-icon"></i>Configuración</a>
@@ -85,7 +85,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Vacantes en pausa<i class="icono-pausa fa-solid fa-circle-pause"></i></h5>
-                            <h2 class="card-subtitle mb-2">1</h2>
+                            <h2 class="card-subtitle mb-2">0</h2>
                             <p class="card-text">13-12-2023</p><a href="#" class="card-link">Ver mas</a>
                         </div>
                     </div>
